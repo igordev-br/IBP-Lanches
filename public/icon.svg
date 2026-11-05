@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="burgerTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)"/>
+  
+  <!-- Church Cross Accent in subtle white glow at top -->
+  <g transform="translate(256, 110) scale(0.9)" opacity="0.95">
+    <rect x="-6" y="-36" width="12" height="72" rx="4" fill="#ffffff"/>
+    <rect x="-24" y="-18" width="48" height="12" rx="4" fill="#ffffff"/>
+  </g>
+
+  <!-- Burger Top Bun -->
+  <path d="M140 230 C 140 160, 372 160, 372 230 Z" fill="url(#burgerTop)" stroke="#92400e" stroke-width="6"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="210" cy="195" rx="8" ry="4" fill="#fef3c7" transform="rotate(-15 210 195)"/>
+  <ellipse cx="256" cy="185" rx="8" ry="4" fill="#fef3c7"/>
+  <ellipse cx="302" cy="195" rx="8" ry="4" fill="#fef3c7" transform="rotate(15 302 195)"/>
+  <ellipse cx="230" cy="215" rx="7" ry="3" fill="#fef3c7" transform="rotate(-5 230 215)"/>
+  <ellipse cx="280" cy="215" rx="7" ry="3" fill="#fef3c7" transform="rotate(5 280 215)"/>
+
+  <!-- Lettuce wave -->
+  <path d="M130 240 Q 150 226 175 240 T 225 240 T 275 240 T 325 240 T 382 240 C 385 248 375 258 360 258 L 152 258 C 137 258 128 248 130 240 Z" fill="#22c55e" stroke="#15803d" stroke-width="4"/>
+
+  <!-- Tomato layer -->
+  <rect x="145" y="260" width="222" height="18" rx="8" fill="#ef4444"/>
+
+  <!-- Cheese melt hanging slightly -->
+  <path d="M138 280 L 374 280 L 360 306 L 315 290 L 265 316 L 220 290 L 175 314 L 150 286 Z" fill="#fbbf24"/>
+
+  <!-- Patty -->
+  <rect x="135" y="300" width="242" height="34" rx="14" fill="#592b15" stroke="#3c1b0c" stroke-width="4"/>
+
+  <!-- Bottom Bun -->
+  <path d="M142 344 L 370 344 C 370 376, 142 376, 142 344 Z" fill="url(#burgerTop)" stroke="#92400e" stroke-width="5"/>
+
+  <!-- Text IBPLANCHES -->
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="3">IBPLANCHES</text>
+  <text x="256" y="472" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#fde68a" text-anchor="middle" letter-spacing="4">LANCHONETE DA IGREJA</text>
+</svg>

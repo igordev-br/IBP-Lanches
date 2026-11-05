@@ -1,0 +1,8 @@
+{
+  "name": "IBPLanches — Lanchonete da Igreja",
+  "description": "Sistema completo de lanchonete para igrejas com cardápio digital, pedidos por QR Code em mesa, pagamentos Pix/Dinheiro/Cartão, comprovantes e painel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

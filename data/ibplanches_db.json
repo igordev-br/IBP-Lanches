@@ -1,0 +1,1139 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "name": "Pastor / Admin Geral",
+      "email": "admin@ibplanches.org.br",
+      "role": "admin",
+      "active": true,
+      "passwordHash": "afbfacaa4c567aa6e4ce340d11f6cb8188704808df96afe0665018fc4b7c22e0360fba25bf5d48a1e42d1b837aebdeb13de2b30a068e180ff1de6eb6c555b7db",
+      "salt": "e3ce2ac2d6b269482a8bbd9a910b386e",
+      "createdAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "usr-gerente",
+      "name": "Coordenação Lanchonete",
+      "email": "gerente@ibplanches.org.br",
+      "role": "gerente",
+      "active": true,
+      "passwordHash": "1a64742c86ff5bc01d15939f49ec462420a7a32fb018d2d6d5bf02ccb227f17d8ad8b5a12039a8551a125a1b5c09b86a0e104a0ca3123deab066dde95367d1bc",
+      "salt": "f214292f2fec725aedcd4b1f19d41496",
+      "createdAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "usr-caixa",
+      "name": "Operador de Caixa",
+      "email": "caixa@ibplanches.org.br",
+      "role": "caixa",
+      "active": true,
+      "passwordHash": "fdecf67a054e5ea6b1292bc547d25dc870be4ee6f182ac221023b1e467a8451cfee536b44d1f3f5721a22462f4fcca68c524b19e5ce320b1bb15aab01c30bbd6",
+      "salt": "a0ecd6860cb2922b47fc286b1d951683",
+      "createdAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "usr-cozinha",
+      "name": "Equipe da Cozinha",
+      "email": "cozinha@ibplanches.org.br",
+      "role": "cozinha",
+      "active": true,
+      "passwordHash": "067804ceb6457fb132cc2338b9cd81fb2d0fc544ff94f7791f04d0d1b97476ad62ed5f5f8a7711f0a47a1a5adb87ecc88784cf4e69e63b08fbf0a835e4c31b3d",
+      "salt": "8243893f03f1d31657e2b6a9f8715b53",
+      "createdAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "usr-atendente",
+      "name": "Voluntário Atendimento",
+      "email": "atendente@ibplanches.org.br",
+      "role": "atendente",
+      "active": true,
+      "passwordHash": "2b7d8e7d0bc48f305ac008f61feea1660ae6ef957d4298361a7b7925835c853240b273cd744cd0038a8f8ddb49a6f19010e3036ee1ef355d81bceaf75111dc1f",
+      "salt": "290b063987a730f7415ba17e8b6d575b",
+      "createdAt": "2026-10-22T03:00:00.674Z"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tbl-01",
+      "number": "01",
+      "name": "Mesa 01 — Salão de Comunhão",
+      "token": "table_01_009a90b6",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "createdAt": "2026-10-22T03:00:01.883Z"
+    },
+    {
+      "id": "tbl-02",
+      "number": "02",
+      "name": "Mesa 02 — Salão de Comunhão",
+      "token": "table_02_0e1a858d",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "createdAt": "2026-10-22T03:00:01.911Z"
+    },
+    {
+      "id": "tbl-03",
+      "number": "03",
+      "name": "Mesa 03 — Salão de Comunhão",
+      "token": "table_03_a1209bc9",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,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wFImAFjKBABLmQBgKRMALPXRZZ0u/CNq9LZO17eKGt0SNXpbp+ttna4TUaNvFTX6RiYAWMoEAEuZAGApEwAsZQKApUwAsJQJAJYyAcBSJgBY6qMfEjX6zTpd3ypq9Lao0S2drpuiRrdEjU50um6JGn2rqNGJTtctUaNbTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALDUR1+s0/W2qNHbokYnOl03RY3e1um6JWp0otN1S9Topk7Xb9bpuiVq9DYTACxlAoClTACwlAkAljIBwFImAFjKBABLmQBgqY/w4zpdJ6JGJzpdJzpdt0SN3tbp+u2iRrd0um6JGp3odJ2IGj3pdJ2IGt1iAoClTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKU+wq/R6ToRNbql0/W2qNFvFzU60el6EjU6ETW6pdN1Imr0m5kAYCkTACxlAoClTACwlAkAljIBwFImAFjKBABLmQBgqY++WNRog6jRiU7X26JGJzpdt3S6TkSNbul0/YSo0ZNO101RoydRo5s6XU+iRm8zAcBSJgBYygQAS5kAYCkTACxlAoClTACwlAkAlvroh3S68LdO102drhNRoyedrpuiRk86XSc6XSeiRk+iRic6XTd1up5EjU50um7pdJ2IGv1mJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqjz//IgBYyAQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGCp/wHUHzrSACyl2QAAAABJRU5ErkJggg==",
+      "createdAt": "2026-10-22T03:00:01.930Z"
+    },
+    {
+      "id": "tbl-04",
+      "number": "04",
+      "name": "Mesa 04 — Salão de Comunhão",
+      "token": "table_04_a27a786c",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "createdAt": "2026-10-22T03:00:01.946Z"
+    },
+    {
+      "id": "tbl-05",
+      "number": "05",
+      "name": "Mesa 05 — Salão de Comunhão",
+      "token": "table_05_9ef0a3fd",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "createdAt": "2026-10-22T03:00:01.966Z"
+    },
+    {
+      "id": "tbl-06",
+      "number": "06",
+      "name": "Mesa 06 — Salão de Comunhão",
+      "token": "table_06_8a9f2e8b",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAYAAADNkKWqAAAAAklEQVR4AewaftIAAAkdSURBVO3BMa4tx45FwS3iuDQ5OI6Qg6PJAagFyJBZ+dCJuud+roi//v6HAGAhEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALDUR5d1uvCfqNGTTtdNUaNbOl0noka3dLpuihrd0uk6ETW6pdOF/0SNbjEBwFImAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUh/9kKjRb9bpelvU6KZO19s6XbdEjU50up5EjU5Ejb5V1Og363S9zQQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqoy/W6Xpb1OhtUaObOl0noka3dLq+VdTobZ2uE1Gjt3W63hY1+kYmAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUiYAWOoj/LhO101Ro1s6XSeiRm/rdAH/HyYAWMoEAEuZAGApEwAsZQKApUwAsJQJAJYyAcBSJgBY6iP8uKjRiU7X26JGJzpdJ6JGt0SNTnS6boka4X+HCQCWMgHAUiYAWMoEAEuZAGApEwAsZQKApUwAsNRHXyxqhD/X6ToRNbolanSi0/UkavStOl03RY3eFjXCv0wAsJQJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACw1Ec/pNOFf3W6TkSNTnS6bul0nYgava3TdSJq9KTTdSJqdKLT9bZOF/6MCQCWMgHAUiYAWMoEAEuZAGApEwAsZQKApUwAsJQJAJb66+9/CD+q03VT1OhEp+tJ1OhEp+uWqNFNna4nUSPsYwKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACz10WWdrhNRoyedrpuiRk86XW+LGt3U6ToRNXrS6fpWna4TUaMnna6boka3dLpORI1u6XSdiBqd6HTdEjW6xQQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjKBABLffRDOl1PokYnOl0nOl1PokY3dbqedLp+u6jRLZ2umzpdT6JGJzpdJzpdb+t04c+YAGApEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYKmPLosa3dLpuilq9KTTdVPU6JZO14mo0YlO19s6XbdEjW7pdJ2IGp3odJ2IGj3pdJ2IGp3odN3S6bolavQ2EwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACz10SKdridRo5s6XU+iRt8qanSi07VBp+umTteTqNGJTtctUaObOl1POl0noka3mABgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEt99D8ganSi03VLp+ttUaObokZPOl0nokbfqtP1tqjR26JGt3S6booaPel0vc0EAEuZAGApEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS330xaJGJzpdJ6JGt0SNTnS6nnS6TkSNTnS63tbpOhE1elvU6Emn61t1uk5EjW6JGp3odP1mJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqox/S6XoSNfpWna4TUaO3RY2+VafrSdToRKfrRNToSdToRKfrpk7XBp2ub2QCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGApEwAs9dFlna63RY1OdLqeRI1ORI1OdLpuiRqd6HSdiBo96XTdFDW6JWp0S6frJ0SNbul0vS1qdEun620mAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUiYAWOqjL9bpelun61t1um7qdN0SNdoganSi03VL1OhE1OhEp+tJ1OimTtc3MgHAUiYAWMoEAEuZAGApEwAsZQKApUwAsJQJAJYyAcBSH10WNcKf6XSdiBqd6HS9rdN1Imr0pNN1Imp0S9ToJ0SNbul0nYgaPel0nYga3RI1epsJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACw1EeXdbpORI1u6XTdEjU60en67aJG+Fen60TU6G2drhNRI/wZEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACz10WVRo28VNbolavS2TteJqNFvFjW6qdOFPxM1OtHpuqXTdSJqdIsJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACwlAkAlvroh3S6frNO1y1Ro5/Q6Xpb1OhJp+tE1OiWqNGJTtdNna5bOl23RI3eFjV6mwkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALCUCQCW+uvvfwg/qtN1Imp0otN1Imr0pNP1tqjRTZ2uJ1GjmzpdJ6JGb+t0/WZRo1tMALCUCQCWMgHAUiYAWMoEAEuZAGApEwAsZQKApT66rNOF/0SN3hY1+lZRo1s6XW/rdL2t03UiavStokbfyAQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjKBABLffRDoka/Wafrt+t0PYkafauo0S2drhNRoxOdrluiRt8qanSi03VL1OgWEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACz10RfrdL0tavS2qNGJTteJqNG36nTdEjU60el6EjX6CZ2u36zTdUvU6G0mAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUh/hx3W6TkSNTnS6TkSNfrNO128XNbql03VL1OhEp+tE1OhJp+tE1OgWEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACz1EX6NTtfbOl0nokYnoka3dLpu6XSdiBqdiBqd6HQ9iRqdiBrd0uk6ETX6zUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACw1EdfLGq0QdToRKfrRNToRKfrSdToRKfrRNTolqjRLZ2uE52um6JGTzpdJ6JGt0SNbup0PYkavc0EAEuZAGApEwAsZQKApUwAsJQJAJYyAcBSJgBY6qMf0unCvzpdPyFqdEvU6G2drhNRoydRoxOdrps6XU+iRm/rdJ2IGv1mJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqr7//IQBYyAQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGCp/wOddjDOrt/bFgAAAABJRU5ErkJggg==",
+      "createdAt": "2026-10-22T03:00:01.984Z"
+    },
+    {
+      "id": "tbl-07",
+      "number": "07",
+      "name": "Mesa 07 — Salão de Comunhão",
+      "token": "table_07_d78f9c85",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,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",
+      "createdAt": "2026-10-22T03:00:02.252Z"
+    },
+    {
+      "id": "tbl-08",
+      "number": "08",
+      "name": "Mesa 08 — Salão de Comunhão",
+      "token": "table_08_3433fb52",
+      "active": true,
+      "qrCodeDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAYAAADNkKWqAAAAAklEQVR4AewaftIAAAkdSURBVO3BsZFsR4xFwUtEqxBhHCyEcRBhwF9GUKD4irG1b3oWJ/OvP38TACxkAoClTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGApEwAsZQKApUwAsJQJAJb66LJOF/4VNXrS6ToRNdqg03VT1OiWTteJqNEtnS78K2p0iwkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALCUCQCW+uiHRI1+s07Xb9fpuiVqdKLTdUvU6ESn60nU6ETU6FtFjX6zTtfbTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKU++mKdrrdFjd4WNTrR6ToRNXpbp+tbRY3e1uk6ETV6W6frbVGjb2QCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGApEwAsZQKApT7Cj+t0nYganeh0nYgaPel0nYgava3TBfxvmABgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGCpj/DjokYnOl03dbqeRI1OdLpORI1uiRrd0uk6ETXC/x8mAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUh99sagR/hU1OtHpelvU6ESn60nU6G1RoxOdrpuiRm+LGuEfJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqox/S6cI/Ol0nokY3RY2edLpORI3e1uk6ETV60uk6ETU60el6W6cL/40JAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACwlAkAlvrosqgR9ul0vS1qdKLT9SRqdFPU6JaoEf5vmABgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEt9dFmn60TU6Emn66ao0ZNO19uiRjdFjU50up5EjU50ut7W6ToRNXrS6bopanRLp+tE1OiWTteJqNGJTtctUaNbTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALDUR18savStoka3dLpORI1uiho96XSdiBrd0um6qdP1JGp0otN1otP1tk4X/hsTACxlAoClTACwlAkAljIBwFImAFjKBABLmQBgKRMALPXXn7/pB3S6nkSNbup0PYkaneh0nYga3dLpOhE1+ladrluiRrd0uk5EjU50uk5EjZ50uk5EjU50ur5R1OhtJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqo0WiRk86XSeiRic6Xd+q0/UkanSi07VBp+umTteTqNGJTtctUaObOl1POl0noka3mABgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEv99edvWqLT9Y2iRic6XSeiRvhXp+ttUaPfrNN1U9ToSafrRNToFhMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGApEwAs9dFlna5bokZvixp9q6jR2zpdN0WN8N90uk5EjW6JGp3odP1mJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqo8uiRm/rdJ2IGt3S6ToRNXrS6bopanSi03VL1OhEp+tJ1OhEp+uWqNGJTtdNna4NOl3fyAQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqox/S6XoSNToRNTrR6bolanSi03VL1OhbdbpORI1uiRr9dlGjWzpdb4sa3dLpepsJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACwlAkAlvrosk7XBp2ut3W63hY1+ladrhNRo1uiRic6XbdEjU5EjU50up5EjW7qdH0jEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACz10WVRoxOdriedrpuiRm/rdD2JGp3odJ2IGr2t03UiavSk0/W2TteJqNFNUaNbOl0nokZPOl0noka3RI3eZgKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACz10WWdrhNRo7d1up5EjU50um7pdH2rTteJqNFvFjX6Vp2uE1Ej/DcmAFjKBABLmQBgKRMALGUCgKVMALCUCQCWMgHAUiYAWOqjy6JGb+t0vS1qdEun60TU6ESn60TU6BtFjU50uk50up5EjfCvqNGJTtctna4TUaNbTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKVMALDUX3/+ph/Q6XoSNXpbp+u3ixqd6HQ9iRqd6HSdiBq9rdP1JGp0otO1QdToRKfrlqjR20wAsJQJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACw1F9//ib8qE7XT4gaPel0vS1q9Nt1uk5Ejd7W6frNoka3mABgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEt9dFmnC/+KGt0SNbqp0/UkanSi03UiavSbdbre1uk6ETX6VlGjb2QCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGApEwAsZQKApT76IVGj36zT9bZO14mo0Ymo0ZNO14mo0S2drpuiRk86XSeiRic6XbdEjb5V1OhEp+uWqNEtJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjqoy/W6Xpb1OhtUaMTna4Tna5bokY3dbpuiRqd6HR9q07Xb9bpuiVq9DYTACxlAoClTACwlAkAljIBwFImAFjKBABLmQBgqY/w4zpdJ6JGN3W6nnS6TkSN3tbp+u2iRrd0um6JGp3odJ2IGj3pdJ2IGt1iAoClTACwlAkAljIBwFImAFjKBABLmQBgKRMALGUCgKU+wlpRo1s6XbdEjU50um6JGt0UNTrR6XoSNToRNbql03UiavSbmQBgKRMALGUCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGCpj75Y1GiDqNFP6HQ9iRqdiBp9q6jRLZ2um6JGTzpdJ6JGJzpdT6JGN3W6nkSN3mYCgKVMALCUCQCWMgHAUiYAWMoEAEuZAGApEwAs9dEP6XThH52unxA1+s2iRrd0un5Cp+tJ1OhEp+uWTteJqNFvZgKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACxlAoCl/vrzNwHAQiYAWMoEAEuZAGApEwAsZQKApUwAsJQJAJYyAcBSJgBYygQAS5kAYCkTACxlAoClTACwlAkAljIBwFImAFjKBABL/Q/kJziJ1Lc/uwAAAABJRU5ErkJggg==",
+      "createdAt": "2026-10-22T03:00:02.291Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-lanches",
+      "name": "Hambúrgueres & Lanches",
+      "order": 1,
+      "icon": "🍔",
+      "active": true
+    },
+    {
+      "id": "cat-salgados",
+      "name": "Salgados & Pastéis",
+      "order": 2,
+      "icon": "🥟",
+      "active": true
+    },
+    {
+      "id": "cat-porcoes",
+      "name": "Porções da Comunhão",
+      "order": 3,
+      "icon": "🍟",
+      "active": true
+    },
+    {
+      "id": "cat-bebidas",
+      "name": "Bebidas Geladas",
+      "order": 4,
+      "icon": "🥤",
+      "active": true
+    },
+    {
+      "id": "cat-doces",
+      "name": "Doces & Sobremesas",
+      "order": 5,
+      "icon": "🍰",
+      "active": true
+    },
+    {
+      "id": "cat-combos",
+      "name": "Combos Especiais",
+      "order": 6,
+      "icon": "✨",
+      "active": true
+    }
+  ],
+  "optionGroups": [
+    {
+      "id": "og-ponto",
+      "name": "Ponto da Carne",
+      "required": true,
+      "minChoices": 1,
+      "maxChoices": 1,
+      "options": [
+        {
+          "id": "opt-ao-ponto",
+          "name": "Ao Ponto (suculenta)",
+          "price": 0,
+          "available": true
+        },
+        {
+          "id": "opt-bem-passado",
+          "name": "Bem Passado",
+          "price": 0,
+          "available": true
+        },
+        {
+          "id": "opt-ponto-menos",
+          "name": "Ao Ponto para Mal Passado",
+          "price": 0,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "og-adicionais-lanche",
+      "name": "Adicionais Saborosos",
+      "required": false,
+      "minChoices": 0,
+      "maxChoices": 4,
+      "options": [
+        {
+          "id": "opt-bacon-extra",
+          "name": "Bacon Crocante Extra",
+          "price": 4.5,
+          "available": true
+        },
+        {
+          "id": "opt-queijo-extra",
+          "name": "Cheddar Cremoso Extra",
+          "price": 3.5,
+          "available": true
+        },
+        {
+          "id": "opt-cebola-caramelizada",
+          "name": "Cebola Caramelizada",
+          "price": 3,
+          "available": true
+        },
+        {
+          "id": "opt-ovo-frito",
+          "name": "Ovo Frito na Chapa",
+          "price": 2.5,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "og-molho-especial",
+      "name": "Molho Artesanal",
+      "required": false,
+      "minChoices": 0,
+      "maxChoices": 2,
+      "options": [
+        {
+          "id": "opt-maionese-verde",
+          "name": "Maionese Verde da Casa",
+          "price": 2,
+          "available": true
+        },
+        {
+          "id": "opt-barbecue-defumado",
+          "name": "Barbecue Defumado",
+          "price": 2,
+          "available": true
+        },
+        {
+          "id": "opt-alho-ervas",
+          "name": "Molho de Alho com Ervas",
+          "price": 2,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "og-refrigerante-tipo",
+      "name": "Escolha o Refrigerante",
+      "required": true,
+      "minChoices": 1,
+      "maxChoices": 1,
+      "options": [
+        {
+          "id": "opt-coca-normal",
+          "name": "Coca-Cola Original 350ml",
+          "price": 0,
+          "available": true
+        },
+        {
+          "id": "opt-coca-zero",
+          "name": "Coca-Cola Sem Açúcar 350ml",
+          "price": 0,
+          "available": true
+        },
+        {
+          "id": "opt-guarana-antarctica",
+          "name": "Guaraná Antarctica 350ml",
+          "price": 0,
+          "available": true
+        },
+        {
+          "id": "opt-fanta-laranja",
+          "name": "Fanta Laranja 350ml",
+          "price": 0,
+          "available": true
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-xbacon",
+      "code": "LAN-01",
+      "name": "X-Bacon Artesanal da Casa",
+      "categoryId": "cat-lanches",
+      "description": "Pão brioche selado na manteiga, blend bovino 150g suculento, fatias generosas de bacon crocante, cheddar derretido e maionese verde da casa.",
+      "price": 26,
+      "cost": 11.5,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": true,
+      "stockQuantity": 45,
+      "minStock": 10,
+      "estimatedMinutes": 12,
+      "optionGroupIds": [
+        "og-ponto",
+        "og-adicionais-lanche",
+        "og-molho-especial"
+      ],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-pao-brioche",
+          "quantity": 1,
+          "unit": "un"
+        },
+        {
+          "inventoryItemId": "inv-carne-150g",
+          "quantity": 1,
+          "unit": "un"
+        },
+        {
+          "inventoryItemId": "inv-bacon",
+          "quantity": 0.05,
+          "unit": "kg"
+        },
+        {
+          "inventoryItemId": "inv-cheddar",
+          "quantity": 0.04,
+          "unit": "kg"
+        },
+        {
+          "inventoryItemId": "inv-embalagem-lanche",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-xsalada",
+      "code": "LAN-02",
+      "name": "X-Salada Tradicional Especial",
+      "categoryId": "cat-lanches",
+      "description": "Blend bovino 150g, queijo prato derretido, alface americana fresca, rodelas de tomate maduro e maionese especial no pão brioche.",
+      "price": 22,
+      "cost": 9.8,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": true,
+      "stockQuantity": 40,
+      "minStock": 10,
+      "estimatedMinutes": 10,
+      "optionGroupIds": [
+        "og-ponto",
+        "og-adicionais-lanche",
+        "og-molho-especial"
+      ],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-pao-brioche",
+          "quantity": 1,
+          "unit": "un"
+        },
+        {
+          "inventoryItemId": "inv-carne-150g",
+          "quantity": 1,
+          "unit": "un"
+        },
+        {
+          "inventoryItemId": "inv-embalagem-lanche",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-hotdog-prensado",
+      "code": "LAN-03",
+      "name": "Cachorro-Quente Prensado Especial",
+      "categoryId": "cat-lanches",
+      "description": "Pão de hot dog macio, duas salsichas grelhadas, molho de tomate caseiro com especiarias, milho, purê de batata cremoso, batata palha e queijo ralado prensado.",
+      "price": 18,
+      "cost": 7.2,
+      "image": "https://images.unsplash.com/photo-1619740455993-9e612b1af08a?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": false,
+      "stockQuantity": 30,
+      "minStock": 8,
+      "estimatedMinutes": 8,
+      "optionGroupIds": [
+        "og-molho-especial"
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-coxinha",
+      "code": "SAL-01",
+      "name": "Coxinha Dourada com Catupiry",
+      "categoryId": "cat-salgados",
+      "description": "Massa cremosa à base de caldo caseiro, recheio farto de peito de frango desfiado temperado com ervas finas e requeijão Catupiry legítimo.",
+      "price": 9.5,
+      "cost": 3.2,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": true,
+      "stockQuantity": 60,
+      "minStock": 15,
+      "estimatedMinutes": 4,
+      "optionGroupIds": [
+        "og-molho-especial"
+      ],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-coxinha",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-pastel-carne",
+      "code": "SAL-02",
+      "name": "Pastel Frito de Carne com Azeitona",
+      "categoryId": "cat-salgados",
+      "description": "Massa crocante e sequinha, recheio farto de carne moída bem refogada, ovo cozido picadinho e azeitona verde.",
+      "price": 10,
+      "cost": 3.5,
+      "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": false,
+      "stockQuantity": 45,
+      "minStock": 12,
+      "estimatedMinutes": 6,
+      "optionGroupIds": [
+        "og-molho-especial"
+      ],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-pastel-carne",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-pao-de-queijo",
+      "code": "SAL-03",
+      "name": "Porção de Mini Pão de Queijo Mineiro (6 un)",
+      "categoryId": "cat-salgados",
+      "description": "Feitos com queijo Canastra legítimo, quentinhos e crocantes por fora, macios por dentro.",
+      "price": 12,
+      "cost": 4.2,
+      "image": "https://images.unsplash.com/photo-1598188306155-25e400eb5078?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": false,
+      "stockQuantity": 25,
+      "minStock": 6,
+      "estimatedMinutes": 5,
+      "optionGroupIds": [],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-batata-frita-bacon",
+      "code": "POR-01",
+      "name": "Batata Rústica com Cheddar & Bacon",
+      "categoryId": "cat-porcoes",
+      "description": "400g de batata frita bem crocante coberta com cheddar derretido cremoso e farofa de bacon defumado.",
+      "price": 24,
+      "cost": 8.5,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": true,
+      "stockQuantity": 20,
+      "minStock": 5,
+      "estimatedMinutes": 12,
+      "optionGroupIds": [
+        "og-molho-especial"
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-coca-cola",
+      "code": "BEB-01",
+      "name": "Refrigerante em Lata 350ml",
+      "categoryId": "cat-bebidas",
+      "description": "Lata trincando de gelada. Escolha seu sabor favorito.",
+      "price": 6,
+      "cost": 3.2,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": false,
+      "stockQuantity": 96,
+      "minStock": 25,
+      "estimatedMinutes": 2,
+      "optionGroupIds": [
+        "og-refrigerante-tipo"
+      ],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-coca-lata",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-suco-laranja",
+      "code": "BEB-02",
+      "name": "Suco Natural de Laranja 400ml",
+      "categoryId": "cat-bebidas",
+      "description": "Espremido na hora, 100% fruta pura e refrescante, com ou sem gelo.",
+      "price": 9,
+      "cost": 3.5,
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": false,
+      "stockQuantity": 50,
+      "minStock": 10,
+      "estimatedMinutes": 4,
+      "optionGroupIds": [],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-suco-laranja",
+          "quantity": 0.4,
+          "unit": "kg"
+        },
+        {
+          "inventoryItemId": "inv-copo-500ml",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-agua-mineral",
+      "code": "BEB-03",
+      "name": "Água Mineral com/sem Gás 500ml",
+      "categoryId": "cat-bebidas",
+      "description": "Garrafinha fresca para hidratar a comunhão.",
+      "price": 4,
+      "cost": 1.2,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": false,
+      "stockQuantity": 120,
+      "minStock": 30,
+      "estimatedMinutes": 1,
+      "optionGroupIds": [],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-agua-sem-gas",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-bolo-pote",
+      "code": "DOC-01",
+      "name": "Bolo no Pote Brigadeiro Gourmet",
+      "categoryId": "cat-doces",
+      "description": "Massa fofinha de chocolate 50% cacau, intercalada com camadas generosas de brigadeiro artesanal e granulado nobre.",
+      "price": 11,
+      "cost": 4.5,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": true,
+      "stockQuantity": 35,
+      "minStock": 8,
+      "estimatedMinutes": 2,
+      "optionGroupIds": [],
+      "recipe": [
+        {
+          "inventoryItemId": "inv-bolo-pote",
+          "quantity": 1,
+          "unit": "un"
+        }
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "prod-combo-comunhao",
+      "code": "CMB-01",
+      "name": "Combo Comunhão (X-Bacon + Batata + Refri)",
+      "categoryId": "cat-combos",
+      "description": "O combo favorito da igreja! 1 X-Bacon Artesanal suculento + 1 porção individual de batatas crocantes + 1 Refrigerante em lata geladinho.",
+      "price": 36,
+      "cost": 16.5,
+      "image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=80",
+      "available": true,
+      "isFeatured": true,
+      "stockQuantity": 30,
+      "minStock": 10,
+      "estimatedMinutes": 12,
+      "optionGroupIds": [
+        "og-ponto",
+        "og-refrigerante-tipo",
+        "og-molho-especial"
+      ],
+      "createdAt": "2026-10-22T03:00:00.674Z",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "PED-103",
+      "orderNumber": 103,
+      "tableId": "tbl-01",
+      "tableNumber": "01",
+      "customerName": "Irmão Teste",
+      "customerPhone": "",
+      "items": [
+        {
+          "productId": "prod-xbacon",
+          "productName": "X-Bacon Artesanal da Casa",
+          "productCode": "LAN-01",
+          "unitPrice": 26,
+          "quantity": 1,
+          "selectedOptions": [],
+          "notes": "",
+          "totalItemPrice": 26
+        }
+      ],
+      "subtotal": 26,
+      "discount": 0,
+      "total": 26,
+      "paymentMethod": "pix",
+      "paymentStatus": "pagamento_aprovado",
+      "prepStatus": "confirmado",
+      "clientToken": "ac7fae8a5958056d6bb5665adca5e990",
+      "history": [
+        {
+          "timestamp": "2026-10-22T03:11:10.531Z",
+          "action": "Pedido recebido pelo sistema",
+          "actor": "Cliente (Mesa 01)"
+        },
+        {
+          "timestamp": "2026-10-22T03:11:17.332Z",
+          "action": "Comprovante de pagamento enviado para conferência",
+          "actor": "Cliente"
+        },
+        {
+          "timestamp": "2026-10-22T03:11:17.339Z",
+          "action": "Comprovante APROVADO",
+          "actor": "Operador de Caixa (caixa)"
+        },
+        {
+          "timestamp": "2026-10-22T03:11:22.779Z",
+          "action": "Status de preparo alterado para confirmado",
+          "actor": "Equipe da Cozinha (cozinha)"
+        }
+      ],
+      "createdAt": "2026-10-22T03:11:10.531Z",
+      "updatedAt": "2026-10-22T03:11:22.778Z",
+      "paymentProof": {
+        "fileDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==",
+        "uploadedAt": "2026-10-22T03:11:17.332Z",
+        "status": "aprovado",
+        "reviewedBy": "Operador de Caixa",
+        "reviewedAt": "2026-10-22T03:11:17.339Z"
+      }
+    },
+    {
+      "id": "PED-101",
+      "orderNumber": 101,
+      "tableId": "tbl-03",
+      "tableNumber": "03",
+      "customerName": "Irmão Carlos",
+      "customerPhone": "(11) 99888-7766",
+      "items": [
+        {
+          "productId": "prod-xbacon",
+          "productName": "X-Bacon Artesanal da Casa",
+          "productCode": "LAN-01",
+          "unitPrice": 26,
+          "quantity": 1,
+          "selectedOptions": [
+            {
+              "groupId": "og-ponto",
+              "groupName": "Ponto da Carne",
+              "optionId": "opt-ao-ponto",
+              "optionName": "Ao Ponto (suculenta)",
+              "price": 0
+            },
+            {
+              "groupId": "og-adicionais-lanche",
+              "groupName": "Adicionais",
+              "optionId": "opt-bacon-extra",
+              "optionName": "Bacon Crocante Extra",
+              "price": 4.5
+            }
+          ],
+          "notes": "Sem cebola, por favor",
+          "totalItemPrice": 30.5
+        },
+        {
+          "productId": "prod-coca-cola",
+          "productName": "Refrigerante em Lata 350ml",
+          "productCode": "BEB-01",
+          "unitPrice": 6,
+          "quantity": 1,
+          "selectedOptions": [
+            {
+              "groupId": "og-refrigerante-tipo",
+              "groupName": "Refrigerante",
+              "optionId": "opt-coca-zero",
+              "optionName": "Coca-Cola Sem Açúcar 350ml",
+              "price": 0
+            }
+          ],
+          "totalItemPrice": 6
+        }
+      ],
+      "subtotal": 36.5,
+      "discount": 0,
+      "total": 36.5,
+      "paymentMethod": "pix",
+      "paymentStatus": "pagamento_aprovado",
+      "prepStatus": "em_preparacao",
+      "paymentProof": {
+        "fileDataUrl": "",
+        "uploadedAt": "2026-10-22T02:35:02.291Z",
+        "status": "aprovado",
+        "reviewedBy": "Operador de Caixa",
+        "reviewedAt": "2026-10-22T02:50:02.291Z"
+      },
+      "clientToken": "token_sample_101_cl",
+      "history": [
+        {
+          "timestamp": "2026-10-22T02:35:02.291Z",
+          "action": "Pedido criado",
+          "actor": "Cliente (Mesa 03)"
+        },
+        {
+          "timestamp": "2026-10-22T02:35:02.291Z",
+          "action": "Comprovante Pix enviado",
+          "actor": "Cliente"
+        },
+        {
+          "timestamp": "2026-10-22T02:50:02.291Z",
+          "action": "Comprovante Pix aprovado",
+          "actor": "Caixa"
+        },
+        {
+          "timestamp": "2026-10-22T02:50:02.291Z",
+          "action": "Iniciado preparo na chapa",
+          "actor": "Cozinha"
+        }
+      ],
+      "createdAt": "2026-10-22T02:35:02.291Z",
+      "updatedAt": "2026-10-22T02:50:02.291Z"
+    },
+    {
+      "id": "PED-102",
+      "orderNumber": 102,
+      "tableId": "tbl-01",
+      "tableNumber": "01",
+      "customerName": "Irmã Mariana",
+      "customerPhone": "(11) 98777-6655",
+      "items": [
+        {
+          "productId": "prod-coxinha",
+          "productName": "Coxinha Dourada com Catupiry",
+          "productCode": "SAL-01",
+          "unitPrice": 9.5,
+          "quantity": 2,
+          "selectedOptions": [],
+          "totalItemPrice": 19
+        },
+        {
+          "productId": "prod-suco-laranja",
+          "productName": "Suco Natural de Laranja 400ml",
+          "productCode": "BEB-02",
+          "unitPrice": 9,
+          "quantity": 1,
+          "selectedOptions": [],
+          "totalItemPrice": 9
+        }
+      ],
+      "subtotal": 28,
+      "discount": 0,
+      "total": 28,
+      "paymentMethod": "dinheiro",
+      "cashChangeFor": 50,
+      "paymentStatus": "aguardando_pagamento",
+      "prepStatus": "confirmado",
+      "clientToken": "token_sample_102_cl",
+      "history": [
+        {
+          "timestamp": "2026-10-22T02:50:02.291Z",
+          "action": "Pedido enviado",
+          "actor": "Cliente (Mesa 01)"
+        },
+        {
+          "timestamp": "2026-10-22T02:50:02.291Z",
+          "action": "Pedido confirmado pela equipe",
+          "actor": "Atendente"
+        }
+      ],
+      "createdAt": "2026-10-22T02:50:02.291Z",
+      "updatedAt": "2026-10-22T02:50:02.291Z"
+    }
+  ],
+  "inventoryItems": [
+    {
+      "id": "inv-pao-brioche",
+      "name": "Pão de Hambúrguer Brioche",
+      "unit": "un",
+      "currentStock": 79,
+      "minStock": 20,
+      "unitCost": 1.8,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "inv-carne-150g",
+      "name": "Blend Bovino Artesanal 150g",
+      "unit": "un",
+      "currentStock": 74,
+      "minStock": 25,
+      "unitCost": 4.5,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "inv-cheddar",
+      "name": "Queijo Cheddar Fatiado (kg)",
+      "unit": "kg",
+      "currentStock": 5.46,
+      "minStock": 2,
+      "unitCost": 38,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "inv-bacon",
+      "name": "Bacon Fatiado Defumado (kg)",
+      "unit": "kg",
+      "currentStock": 4.15,
+      "minStock": 1.5,
+      "unitCost": 42,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "inv-coxinha",
+      "name": "Coxinha de Frango c/ Catupiry Congelada",
+      "unit": "un",
+      "currentStock": 60,
+      "minStock": 20,
+      "unitCost": 2.8,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-pastel-carne",
+      "name": "Pastel de Carne Artesanal",
+      "unit": "un",
+      "currentStock": 45,
+      "minStock": 15,
+      "unitCost": 3,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-batata-frita",
+      "name": "Batata Palito Pré-Frita (pct 2kg)",
+      "unit": "pct",
+      "currentStock": 12,
+      "minStock": 4,
+      "unitCost": 24,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-coca-lata",
+      "name": "Coca-Cola 350ml Lata",
+      "unit": "un",
+      "currentStock": 96,
+      "minStock": 30,
+      "unitCost": 3.2,
+      "category": "bebida",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-guarana-lata",
+      "name": "Guaraná 350ml Lata",
+      "unit": "un",
+      "currentStock": 72,
+      "minStock": 24,
+      "unitCost": 3,
+      "category": "bebida",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-agua-sem-gas",
+      "name": "Água Mineral sem Gás 500ml",
+      "unit": "un",
+      "currentStock": 120,
+      "minStock": 40,
+      "unitCost": 1.2,
+      "category": "bebida",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-suco-laranja",
+      "name": "Laranja pera fresca (kg)",
+      "unit": "kg",
+      "currentStock": 25,
+      "minStock": 10,
+      "unitCost": 4,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-bolo-pote",
+      "name": "Bolo no Pote Brigadeiro Gourmet",
+      "unit": "un",
+      "currentStock": 35,
+      "minStock": 10,
+      "unitCost": 4.5,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-pudim",
+      "name": "Pudim de Leite Condensado Individual",
+      "unit": "un",
+      "currentStock": 20,
+      "minStock": 8,
+      "unitCost": 4,
+      "category": "ingrediente",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    },
+    {
+      "id": "inv-embalagem-lanche",
+      "name": "Caixa Kraft para Hambúrguer",
+      "unit": "un",
+      "currentStock": 149,
+      "minStock": 40,
+      "unitCost": 0.75,
+      "category": "embalagem",
+      "updatedAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "inv-copo-500ml",
+      "name": "Copo Descartável 500ml",
+      "unit": "un",
+      "currentStock": 200,
+      "minStock": 50,
+      "unitCost": 0.25,
+      "category": "embalagem",
+      "updatedAt": "2026-10-22T03:00:00.674Z"
+    }
+  ],
+  "inventoryMovements": [
+    {
+      "id": "mov-436f56d6",
+      "inventoryItemId": "inv-pao-brioche",
+      "type": "venda_automatica",
+      "quantity": 1,
+      "reason": "Consumo automático pedido #103 (X-Bacon Artesanal da Casa x1)",
+      "orderId": "PED-103",
+      "userName": "Equipe da Cozinha",
+      "createdAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "mov-749ad225",
+      "inventoryItemId": "inv-carne-150g",
+      "type": "venda_automatica",
+      "quantity": 1,
+      "reason": "Consumo automático pedido #103 (X-Bacon Artesanal da Casa x1)",
+      "orderId": "PED-103",
+      "userName": "Equipe da Cozinha",
+      "createdAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "mov-d541d3a8",
+      "inventoryItemId": "inv-bacon",
+      "type": "venda_automatica",
+      "quantity": 0.05,
+      "reason": "Consumo automático pedido #103 (X-Bacon Artesanal da Casa x1)",
+      "orderId": "PED-103",
+      "userName": "Equipe da Cozinha",
+      "createdAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "mov-09be83a5",
+      "inventoryItemId": "inv-cheddar",
+      "type": "venda_automatica",
+      "quantity": 0.04,
+      "reason": "Consumo automático pedido #103 (X-Bacon Artesanal da Casa x1)",
+      "orderId": "PED-103",
+      "userName": "Equipe da Cozinha",
+      "createdAt": "2026-10-22T03:11:22.779Z"
+    },
+    {
+      "id": "mov-b39c269d",
+      "inventoryItemId": "inv-embalagem-lanche",
+      "type": "venda_automatica",
+      "quantity": 1,
+      "reason": "Consumo automático pedido #103 (X-Bacon Artesanal da Casa x1)",
+      "orderId": "PED-103",
+      "userName": "Equipe da Cozinha",
+      "createdAt": "2026-10-22T03:11:22.779Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-01",
+      "title": "Compra de Laranjas e Hortifrúti (Feira)",
+      "category": "ingredientes",
+      "amount": 85,
+      "date": "2026-10-22",
+      "notes": "2 caixas de laranja pêra para suco fresco",
+      "registeredBy": "Coordenação Lanchonete",
+      "createdAt": "2026-10-22T03:00:02.291Z"
+    },
+    {
+      "id": "exp-02",
+      "title": "Reposição de Guardanapos e Copos",
+      "category": "embalagens",
+      "amount": 42.5,
+      "date": "2026-10-22",
+      "notes": "Distribuidora São Paulo",
+      "registeredBy": "Coordenação Lanchonete",
+      "createdAt": "2026-10-22T03:00:02.291Z"
+    }
+  ],
+  "cashClosings": [],
+  "settings": {
+    "lanchoneteName": "IBPLanches",
+    "churchName": "Igreja Batista Pioneira",
+    "logoUrl": "/icon.svg",
+    "welcomeMessage": "Bem-vindo à lanchonete da igreja! Faça seu pedido com facilidade pelo celular.",
+    "isOpen": true,
+    "openingHours": "Domingos após o culto (19h30 às 22h30) e Quartas (20h30 às 22h00)",
+    "address": "Av. Esperança, 450 - Bairro Central",
+    "contactPhone": "(11) 98765-4321",
+    "pixKey": "financeiro@ibplanches.org.br",
+    "pixKeyType": "Chave E-mail",
+    "pixReceiverName": "Lanchonete da Igreja Batista",
+    "pixBankName": "Banco Cooperativo Sicredi",
+    "enableSoundAlerts": true,
+    "allowCashChange": true,
+    "serviceFeePercent": 0,
+    "primaryColor": "#ea580c",
+    "estimatedPrepTimeMinutes": 15,
+    "kitchenInstructions": "Capricho no preparo e amor em cada entrega aos irmãos."
+  },
+  "auditLogs": [
+    {
+      "id": "log-c01746f9",
+      "timestamp": "2026-10-22T03:11:22.779Z",
+      "user": "Equipe da Cozinha",
+      "action": "Alterar Preparo",
+      "target": "PED-103",
+      "details": "De aguardando_confirmacao para confirmado"
+    },
+    {
+      "id": "log-e0c2316c",
+      "timestamp": "2026-10-22T03:11:22.757Z",
+      "user": "Equipe da Cozinha",
+      "action": "Login",
+      "target": "Painel Administrativo",
+      "details": "Usuário conectou com perfil cozinha"
+    },
+    {
+      "id": "log-369cbef7",
+      "timestamp": "2026-10-22T03:11:17.339Z",
+      "user": "Operador de Caixa",
+      "action": "Comprovante aprovado",
+      "target": "PED-103",
+      "details": "Comprovante conferido"
+    },
+    {
+      "id": "log-2d3da7d7",
+      "timestamp": "2026-10-22T03:11:17.332Z",
+      "user": "Cliente",
+      "action": "Upload Comprovante",
+      "target": "PED-103",
+      "details": "Comprovante enviado para análise"
+    },
+    {
+      "id": "log-57cbda8b",
+      "timestamp": "2026-10-22T03:11:17.311Z",
+      "user": "Operador de Caixa",
+      "action": "Login",
+      "target": "Painel Administrativo",
+      "details": "Usuário conectou com perfil caixa"
+    },
+    {
+      "id": "log-0d98d9fb",
+      "timestamp": "2026-10-22T03:11:10.542Z",
+      "user": "Pastor / Admin Geral",
+      "action": "Login",
+      "target": "Painel Administrativo",
+      "details": "Usuário conectou com perfil admin"
+    },
+    {
+      "id": "log-3f289979",
+      "timestamp": "2026-10-22T03:11:10.531Z",
+      "user": "Cliente",
+      "action": "Criar Pedido",
+      "target": "PED-103",
+      "details": "Total: R$ 26.00 - Mesa 01"
+    },
+    {
+      "id": "log-01",
+      "timestamp": "2026-10-22T03:00:02.291Z",
+      "user": "Sistema",
+      "action": "Inicialização",
+      "target": "Banco de Dados IBPLanches",
+      "details": "Sistema configurado com dados padrão para lanchonete da igreja"
+    }
+  ],
+  "nextOrderNumber": 104
+}
